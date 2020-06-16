@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACULTY PORTAL </title>
+    <link rel="stylesheet" href="" type="text/css">
+
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+          
+    
+    background-repeat: no-repeat;
+
+     margin:0;
+    padding:100px;
+    background:url(whats.jpeg);
+    background-size:cover;
+    background-position:center ;
+    font-family:sans-serif ;
+ 
+}
+h1{
+    text-align:center;
+    color:black;
+    font-weight: bold;
+}
+
+.reg{
+    width:50%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 25px;
+    background-color: rgba(0,0,0,0.25);
+    
+}
+label{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+#name{
+    width:300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    
+
+}
+.reg button:hover
+{
+    cursor: pointer;
+    background:blue;
+    color: #000;
+   
+}
+.reg button{
+    border:none;
+    outline:none;
+    height:40px;
+    background:whitesmoke;
+    color:black;
+    font-size: 16px;
+    box-sizing: border-box;
+    width:70px;
+    
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    color:blue;
+}
+   textarea{
+       font-size: 16px;
+   }
+   ::placeholder{
+       color: blueviolet;
+   }
+   
+#aqua {
+    color: crimson;
+}
+.s{
+    color: white;
+}
+
+
+
+
+
+
+</style>
+<body>
+    <div class="reg">
+        <form action=".php" id="aqua" method="post">
+            <h1>  FACULTY PORTAL</h1> <br>
+            <h3> Branch</h3>
+    <id="s">
+     <input type="radio" id="text" name="text" value="IT">
+    <Label for="IT">IT</Label><br>
+    <input type="radio" id="text" name="text" value="CSE">
+    <Label for="CSE">CSE</Label><br>
+    <input type="radio" id="text" name="text" value="EEE">
+    <Label for="EEE">EEE</Label><br>
+    <input type="radio" id="text" name="text" value="ECE">
+    <Label for="ECE">ECE</Label><br>
+    <input type="radio" id="text" name="text" value="MECH">
+    <Label for="MECH">MECH</Label><br>
+    <input type="radio" id="text" name="text" value="MBA">
+    <Label for="MBA">MBA</Label><br>
+    <input type="radio" id="text" name="text" value="BS&H">
+    <Label for="BS&H">BS&H</Label><br>
+</id>
+    </form>
+    <form>
+    <h3>Type</h3>
+    <input type="radio" id="text" name="text" value="Suggestion">
+    <label for="Suggestion">Suggestion</label><br>
+    <input type="radio" id="text" name="text" value="Complaint">
+    <label for="Complaint">Complaint</label><br>
+    <h3>COMPLAINT/SUGGESTION <span>&#42;</span></Label><br></h3 ></form>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea cols="50" rows="10" name="Comment" placeholder="Type a message...">  </textarea>
+    
+
+         <br> <button>Submit</button>
+            
+
+
+
+        </form>
+    </div>
+</body>
+</html>
